@@ -1,0 +1,50 @@
+.logo, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: pink;
+}
+
+header {
+    display: flex;     
+}
+
+.baniere-header, .baniere-footer{
+    height: 0.8rem;
+    object-fit: cover;
+   }
+
+.baniere-header { 
+    position: sticky;
+    top: 0;
+}
+
+main{
+    height: 150vh;
+    
+}
+
+footer {
+    display: flex;
+    height: 3rem;
+    align-items: flex-end; 
+}
+
+
+@media screen and (min-width: 600px) 
+{
+    .baniere-header, .baniere-footer {
+        height: 3rem;
+        object-fit: cover;
+        justify-content: center;
+}
+    .bloc-page {
+        width: 1000px;
+        height: 57em;
+        margin: auto;
+        background-color: #d8ff0a;
+}
+}
