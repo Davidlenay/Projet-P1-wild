@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Bagad</title>
+    <link rel="stylesheet" href="nav2chercheprof.css">
+</head>
+<body>
+    <div class="bloc-page">
+        <img class="baniere-header" src="photos/logo1.jpg" alt="clé de sol" width="1920" height="1080">
+        <header>
+            <div class="bloc-container">
+                <h1 class="le">LE</h1>
+                <img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">
+                <nav>
+                    
+                </nav>
+                <h1 class="bagad">BA<span>G</span>AD</h1>
+            </div>
+        </header>
+
+        <Main>
+            <div class="question-recherche">
+                <h1>
+                    Je cherche un prof particulier
+                </h1>
+                <p class="paragraphe"> Il arrive parfois que tu sois un peu loin d'un groupe ou que tes horaires
+                    ne correspondent pas. Pas de panique!!! via ce formulaire, nous allons prendre 
+                    contact avec les professeurs qui peuvent te donner un cours particulier. 
+                    Aussi pour répondre au plus proche de tes besoins et de tes envies, je t'invite 
+                    à compléter le formulaire ci-dessous et à laisser quelques explications.
+                </p> 
+            </div>
+
+            
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend>Pour quel instrument cherches tu un professeur ?</legend>
+                        <label for="Bombarde">
+                        
+                        <input id="check" type="checkbox" name="binet" /> Bombarde</label
+                        >
+                        <label for="Cornemuse"
+                        ><input id="check" type="checkbox" name="binet" /> Cornemuse</label
+                        >
+                        <label for="batterie"
+                        ><input id="check" type="checkbox" name="binet" /> Batterie</label
+                        >
+                    </fieldset>
+                <div class="contact_form2">
+                    <div class="contact-party-2"></div>
+                        <div>
+                            <label for="Nom">Nom : </label>
+                            <input
+                                type="text"
+                                name="Nom"
+                                id="formulaireNom"                            
+                                autofocus
+                            />
+                        </div>
+                        <div>
+                            <label for="Prenom">Prénom : </label>
+                            <input
+                                type="text"
+                                name="Prénom"
+                                id="formulairePrenom"
+                            />
+                        </div>
+                        <div>
+                            <label for="adresse">Adresse : </label>
+                            <input
+                                type="text"
+                                name="Adresse"
+                                id="formulaireAdresse"
+                            />
+                        </div>
+                        <div>
+                            <label for="ville">Ville : </label>
+                            <input
+                                type="text"
+                                name="Adresse"
+                                id="formulaireAdresse"
+                            />
+                        </div>
+                        
+                        <div>
+                            <label for="age">Age : </label>
+                            <input
+                                type="number"
+                                name="Age"
+                                id="formulaireAge"
+                            />
+                        </div>
+                        <div class="checkbox">
+                            <label for="niveau">Niveau : </label>
+                            <select 
+                                name="Niveau" 
+                                id="formulaireNiveau">
+                                    <option value="">--Choisi dans la liste--</option>
+                                    <option value="debutant">Je débute</option>
+                                    <option value="notion">J'ai quelques notions</option>
+                                    <option value="moyen">J'ai un peu pratiqué</option>
+                                    <option value="amateur">Je me débrouille bien</option>
+                                    <option value="confirmé">Je suis autonome</option>
+                                    <option value="légendaire">Je vais t'apprendre la vie</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="mail">Mail <span class="etoile">*</span> : </label>
+                            <input
+                                type="email"
+                                name="mail"
+                                id="formulaireName"
+                                required
+                            />
+                        </div>
+                        <label for="Message" class="zone-of-text">Message Libre:</label>
+                        <textarea 
+                            id="story" 
+                            name="story"
+                            rows="1" cols="auto">
+                        </textarea>
+
+                        <p><input type="submit" value="Envoyer" id="button" /></p>
+                    </div>
+                    <!--<p>
+                        Un professionnel disponible et compétent prendra contact avec toi par mail pour mettre en place 
+                        des cours particulier.
+                    </p>-->
+                    <p class="info-mail">Le champ email précédé par une étoile <span>*</span> est obligatoire, sans cette info nous ne pourrions pas te recontacter</p>
+                </form>
+        </Main>
+        <footer>
+            <div class=" barre-logo">
+                <a href="https://fr-fr.facebook.com/bagaddelannbihoue1/"><img class="logo-bihoue"
+                        src="photos/bagad_lann-bihoue.png" alt="logo Bihoué" width="503" height="496"></a>
+                <a href="https://www.bretagne.bzh/"><img class="logo-bretagne"
+                        src="photos/region-bretagne-remove.png" alt="logo Bretagne" width="670"
+                        height="372"></a>
+                <a href="https://moulin-vert.org/"><img class="logo-moulin" src="photos/logo-moulin.jpg"
+                        alt="logo Moulin" width="1080" height="1920"></a>
+                <a href="https://sonerion.bzh/"><img class="logo-bodadeg" src="photos/bas-logo.jpg"
+                        alt="logo BAS" width="900" height="900"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

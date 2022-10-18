@@ -1,0 +1,181 @@
+.logo, body, footer, h1, h2, .le, .bagad, main, .titre-cornemuse{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    
+}
+.baniere-header {
+    height: 0.3rem;
+    object-fit: cover;
+    width: 100%;
+   }
+
+.logo-general {
+    height: 8rem;
+    width: 8rem;    
+    border-radius: 50%;
+    
+}
+
+
+.bloc-container{
+    display: grid;
+    height: 12rem;
+    width: 100%;
+    /*background-image:url(photos/logo1.jpg);
+    background-size: cover; 
+    background-position: center;*/
+}
+
+  .logo-general {
+    height: 7rem;
+    width: 7rem;    
+    border-radius: 50%;
+    grid-column: 4 / 8 ;
+    grid-row : 2 / 5 ;
+  }
+
+.le {
+    grid-column: 2 / 6 ;
+    grid-row : 3 / 5 ;
+    text-align: center;
+    margin-bottom: 6px;
+    z-index: 1;
+  }
+
+.bagad {
+    grid-column: 1 / 8 ;
+    grid-row : 4 / 7 ;
+    font-size: 3rem;
+    /*grid-column: 2 / 8 ; */
+  }
+
+.le, .bagad {
+    color: #eeeeee;
+    text-align: center;
+}
+span {
+    color: #3c8cd1;
+
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+.titre-cornemuse {
+    border-top: 2px solid white;
+    text-align: center;
+    padding: 6px;
+}
+
+.photo-card img{
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bo;
+    display: block;
+}
+    
+.photo-card {
+    display: block;
+
+}
+
+/*.titre-cornemuse {
+    border-top: 2px solid white;
+    text-align: center;
+    padding: 6px;
+}
+
+
+.photo-cornemuse {
+    margin-top: -3rem;
+    height: auto;
+    width: 214px;
+    max-width: 500px;
+    object-fit: cover;
+    transform: rotate(0.86turn);
+    margin-left: 10vh;
+    
+}*/
+.partie1, .partie2, .partie3 {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin-top: 1rem; 
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 28px;
+    box-shadow: 0px 2px 11px 4px #9cfced;
+    }
+
+    
+    /*p::first-letter{
+        font-size: 120px;
+        color: #c1b696;
+        float: left;
+        margin-right: 8px;
+      }*/
+
+footer {
+    display: block;     
+    align-items: center; 
+    border: 1px solid white;
+    margin right: 26px;
+    margin-top: 1rem;
+    background: grey;
+    width: 100%;
+}
+
+.barre-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3rem;
+
+
+}
+
+.logo-bihoue {
+    width: auto;
+    height: 1.8rem;
+}
+
+.logo-bretagne{
+    width: auto;
+    height: 1.8rem;
+}
+
+.logo-moulin {
+    width: 1rem;
+    height: auto;
+}
+
+.logo-bodadeg {
+    width: auto;
+    height: 1.8rem;
+    
+}
+@media screen and (min-width: 760px)
+{
+
+
+
+
+
+
+
+}
+
+
+
+

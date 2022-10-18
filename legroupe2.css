@@ -178,19 +178,17 @@ footer {
     display: block;     
     align-items: center; 
     border: 1px solid white;
-    margin-right: 26px;
+    margin right: 26px;
     margin-top: 1rem;
     background: grey;
     width: 100%;
 }
 
 .barre-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    flex-wrap: wrap;
-    flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 3rem;
 }
 
 .logo-bihoue {
