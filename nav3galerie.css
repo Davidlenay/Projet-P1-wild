@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+/*font-family: 'Fasthand', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+/*font-family: 'Barlow Condensed', sans-serif;*/
+
+
 * { 
   box-sizing: border-box;
 }
@@ -8,57 +15,57 @@
 }
 
 body {
-    background-color: black;
+  display: none;
+  background-color: black;
     
 }
 .baniere-header {
-    height: 0.3rem;
-    object-fit: cover;
-    width: 100%;
+  height: 0.3rem;
+  object-fit: cover;
+  width: 100%;
 }
 
 .logo-general {
-    height: 8rem;
-    width: 8rem;    
-    border-radius: 50%;
+  height: 8rem;
+  width: 8rem;    
+  border-radius: 50%;
 }
 
 
 .bloc-container{
-    display: grid;
-    height: 9rem;
-    width: 100%;
+  display: grid;
+  height: 9rem;
+  width: 100%;
 }
 
 .logo-general {
-    height: 6rem;
-    width: 6rem;    
-    border-radius: 50%;
-    grid-column: 4 / 8 ;
-    grid-row : 2 / 5 ;
+  height: 6rem;
+  width: 6rem;    
+  border-radius: 50%;
+  grid-column: 4 / 8 ;
+  grid-row : 2 / 5 ;
 }
 
 .le {
-    grid-column: 2 / 6 ;
-    grid-row : 3 / 5 ;
-    text-align: center;
-    margin-bottom: 6px;
-    z-index: 1;
+  grid-column: 2 / 6 ;
+  grid-row : 3 / 5 ;
+  text-align: center;
+  margin-bottom: 6px;
+  z-index: 1;
 }
 
 .bagad {
-    grid-column: 1 / 8 ;
-    grid-row : 4 / 7 ;
-    font-size: 3rem;
-    /*grid-column: 2 / 8 ; */ }
+  grid-column: 1 / 8 ;
+  grid-row : 4 / 7 ;
+  font-size: 3rem;
+}
 
 .le, .bagad {
-    color: #eeeeee;
-    text-align: center;
+  color: #eeeeee;
+  text-align: center;
 }
 span {
-    color: #3c8cd1;
-
+  color: #3c8cd1;
 }
 
 h1 {
@@ -66,7 +73,6 @@ h1 {
   font-size: 2rem;
   margin-top: 0;
   text-align: center;
-  
 }
 
 .question-recherche {
@@ -80,8 +86,6 @@ h1 {
   height: 100px;
   object-fit: cover;
   object-position: center;
-  margin: 1px solid white;
-  
 }
 
 section {
@@ -100,10 +104,12 @@ footer {
 }
 
 .barre-logo {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .logo-bihoue {
@@ -124,5 +130,221 @@ height: 3rem;
 .logo-bodadeg {
   width: auto;
   height: 1.8rem;
+}
+
+@media screen and (min-width: 480px) {
+
+  body {
+    display: initial;
+    background-position: center;
+    background: black;
+  }
+
+ section {
+  display: block;
+ }
   
+  .baniere-header{
+    display: none;
+    margin: initial;
+  }
+
+  .bloc-page {
+    width: 1000px;
+    margin: auto;
+  }
+
+  .logo-header { 
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+  header {
+    display: inline-block;
+    border-bottom: 1px solid #f8ebb0;
+    width: 100%;
+    
+  }
+  
+  .bloc-container {
+    display: flex;
+    background-color: #1a1408;
+    height: auto;
+    width: 100%;
+  }
+
+  .bloc-container :nth-child(1) { order: 0; }
+  .bloc-container :nth-child(2) { order: -1; }
+  
+  
+  .logo-general{
+    justify-content: flex-start;
+    margin: 7px;
+    height: 10rem;
+    width: 10rem;
+    align-items: center;
+  }
+  
+  .burger-icon {
+    display: none;
+  }
+  
+  .le, .bagad {
+    font-size: 70px;
+    font-family: "Agency FB";
+    color: #f8ebb0;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .le {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .question-recherche {
+    border: none;
+    font-family: "Agency FB";
+    color: #f8ebb0;
+    font-size: 70px;
+    border-bottom: 1px solid #f8ebb0;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 15px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  span {
+    font-size: 85px;
+    transform: rotate(0.97turn);
+  }
+
+  section img{
+    margin: 7px;
+    border: 1px solid #f8ebb0
+    
+  }
+  section{
+    text-align: center;
+  }
+
+  .photo-line1 img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .photo-line2 img {
+    width: 460px;
+    height: auto;
+  }
+
+  .photo6 {
+    width: auto;
+    height: 500px;
+  }
+
+  .photo-line4 {
+    display: flex;
+  }
+
+  .photo-line4 img {
+    width: 489px;
+  }
+
+  .photo7 {
+    height: auto;
+    
+  }
+  .photo-line4bis{
+    display: flex;
+    flex-direction: column;  
+  }
+
+  .photo-line4bis img {
+    height: auto;
+    width: 470px
+  }
+  
+  .photo-line5 {
+    display: flex;
+  }
+
+  .photo-line5 img {
+    width: 314px;
+  }
+  .photo-line5bis{
+    display: flex;
+    flex-direction: column; 
+    
+  }
+  .photo11{
+    height: 229px;
+  }
+
+  .photo12{
+    height: 238px;
+  }
+
+  .photo13 {
+    height: 481px;
+    
+  }
+
+  .photo-line5ter{
+    display: flex;
+    flex-direction: column; 
+
+  }
+
+  .photo-line5ter img{
+    height: 151px;
+  }
+
+  .photo17, .photo17{
+    display: none;
+  }
+  /*début de la partie footer*/
+
+
+  footer {
+    margin: initial;
+    background-color: #1a1408;
+    border: none;
+    border-top : 2px solid #f8ebb0;
+    height: 115px;
+    margin-top: 7px;
+  }
+
+  .barre-logo {
+    
+      justify-content: space-evenly;
+      flex-direction: initial;
+      
+  }
+
+  .logo-bihoue {
+    width: auto;
+    height: 4.8rem;
+  }
+
+  .logo-bretagne{
+    width: auto;
+    height: 4rem;
+    background-color: white;
+  }
+
+  .logo-moulin {
+    width: 4rem;
+    height: auto;
+  }
+
+  .logo-bodadeg {
+    width: auto;
+    height: 4rem;
+    margin-top: 3px;
+    
+  }
 }

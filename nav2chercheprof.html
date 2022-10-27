@@ -1,104 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Bagad</title>
-    <link rel="stylesheet" href="nav2chercheprof.css">
-</head>
-<body>
-    <div class="bloc-page">
-        <img class="baniere-header" src="photos/logo1.jpg" alt="clé de sol" width="1920" height="1080">
-        <header>
-            <div class="bloc-container">
-                <h1 class="le">LE</h1>
-                <img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">
-                <nav>
-                    
-                </nav>
-                <h1 class="bagad">BA<span>G</span>AD</h1>
-            </div>
-        </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Bagad</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="photos/favicon-32x32.png">
+        <link rel="stylesheet" href="nav2chercheprof.css">
+        <link rel="stylesheet" href="navAccueil.css">
+    </head>
 
-        <Main>
-            <div class="question-recherche">
-                <h1>
-                    Je cherche un prof particulier
-                </h1>
+    <body>
+        <div class="bloc-page">            
+            <header>
+                <div class="bloc-container">
+                    <h1 class="le">LE</h1>
+                    <img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">
+                    
+                    <h1 class="bagad">BA<span>G</span>AD</h1>
+
+                    <svg class="icone-house" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>home2</title>
+                        <path d="M16 1l-16 16 3 3 3-3v13h8v-6h4v6h8v-13l3 3 3-3-16-16zM16 14c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2z"></path>
+                    </svg>
+                    
+                    <nav class="nav">
+                        <div id="mySidenav" class="sidenav">
+                            
+                            <ul>
+                                <li><a href="index.html">Accueil</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <h1 class="question-recherche">Je cherche un prof particulier</h1>
+
+            <main>
+                
                 <p class="paragraphe"> Il arrive parfois que tu sois un peu loin d'un groupe ou que tes horaires
                     ne correspondent pas. Pas de panique!!! via ce formulaire, nous allons prendre 
                     contact avec les professeurs qui peuvent te donner un cours particulier. 
                     Aussi pour répondre au plus proche de tes besoins et de tes envies, je t'invite 
                     à compléter le formulaire ci-dessous et à laisser quelques explications.
                 </p> 
-            </div>
+                
 
-            
+                
                 <form method="post" action="#">
                     <fieldset>
                         <legend>Pour quel instrument cherches tu un professeur ?</legend>
+
                         <label for="Bombarde">
-                        
-                        <input id="check" type="checkbox" name="binet" /> Bombarde</label
+                        <input id="Bombarde" type="checkbox" name="Bombarde" >Bombarde</label
                         >
                         <label for="Cornemuse"
-                        ><input id="check" type="checkbox" name="binet" /> Cornemuse</label
+                        ><input id="Cornemuse" type="checkbox" name="Cornemuse" >Cornemuse</label
                         >
                         <label for="batterie"
-                        ><input id="check" type="checkbox" name="binet" /> Batterie</label
+                        ><input id="batterie" type="checkbox" name="batterie" >Batterie</label
                         >
                     </fieldset>
-                <div class="contact_form2">
-                    <div class="contact-party-2"></div>
-                        <div>
-                            <label for="Nom">Nom : </label>
-                            <input
-                                type="text"
-                                name="Nom"
-                                id="formulaireNom"                            
-                                autofocus
-                            />
-                        </div>
-                        <div>
-                            <label for="Prenom">Prénom : </label>
-                            <input
-                                type="text"
-                                name="Prénom"
-                                id="formulairePrenom"
-                            />
-                        </div>
-                        <div>
-                            <label for="adresse">Adresse : </label>
-                            <input
-                                type="text"
-                                name="Adresse"
-                                id="formulaireAdresse"
-                            />
-                        </div>
-                        <div>
-                            <label for="ville">Ville : </label>
-                            <input
-                                type="text"
-                                name="Adresse"
-                                id="formulaireAdresse"
-                            />
-                        </div>
-                        
-                        <div>
-                            <label for="age">Age : </label>
-                            <input
-                                type="number"
-                                name="Age"
-                                id="formulaireAge"
-                            />
+
+                    <div class="contact_form2">
+                        <div class="contact-party-2"></div>
+                            <div>
+                                <label for="Nom">Nom : </label>
+                                <input
+                                    type="text"
+                                    name="Nom"
+                                    id="nom"                            
+                                    autofocus
+                                >
+                            </div>
+                            <div>
+                                <label for="Prenom">Prénom : </label>
+                                <input
+                                    type="text"
+                                    name="Prénom"
+                                    id="Prenom"
+                                >
+                            </div>
+                            <div>
+                                <label for="adresse">Adresse : </label>
+                                <input
+                                    type="text"
+                                    name="Adresse"
+                                    id="adresse"
+                                >
+                            </div>
+                            <div>
+                                <label for="ville">Ville : </label>
+                                <input
+                                    type="text"
+                                    name="Adresse"
+                                    id="ville"
+                                >
+                            </div>
+                            
+                            <div>
+                                <label for="age">Age : </label>
+                                <input
+                                    type="number"
+                                    name="Age"
+                                    id="age"
+                                >
                         </div>
                         <div class="checkbox">
                             <label for="niveau">Niveau : </label>
                             <select 
                                 name="Niveau" 
-                                id="formulaireNiveau">
-                                    <option value="">--Choisi dans la liste--</option>
+                                id="niveau">
+                                    <option value="">Choisi dans la liste</option>
                                     <option value="debutant">Je débute</option>
                                     <option value="notion">J'ai quelques notions</option>
                                     <option value="moyen">J'ai un peu pratiqué</option>
@@ -107,44 +121,44 @@
                                     <option value="légendaire">Je vais t'apprendre la vie</option>
                             </select>
                         </div>
-                        <div>
-                            <label for="mail">Mail <span class="etoile">*</span> : </label>
+                        <div class="email">
+                            <label for="email">Mail <span class="etoile">*</span> : </label>
                             <input
                                 type="email"
-                                name="mail"
-                                id="formulaireName"
+                                name="email"
+                                id="email"
                                 required
-                            />
+                            >
                         </div>
                         <label for="Message" class="zone-of-text">Message Libre:</label>
                         <textarea 
-                            id="story" 
-                            name="story"
-                            rows="1" cols="auto">
+                            id="Message" 
+                            name="Message"
+                            rows="1" cols="30">
                         </textarea>
 
-                        <p><input type="submit" value="Envoyer" id="button" /></p>
-                    </div>
-                    <!--<p>
-                        Un professionnel disponible et compétent prendra contact avec toi par mail pour mettre en place 
-                        des cours particulier.
-                    </p>-->
-                    <p class="info-mail">Le champ email précédé par une étoile <span>*</span> est obligatoire, sans cette info nous ne pourrions pas te recontacter</p>
+                        <p><input type="submit" value="Envoyer" id="buttonProf"></p>
+                    </div>  
+                        <p class="info-mail">Le champ email précédé par une étoile <span class="etoile">*</span> est obligatoire, 
+                        sans cette info nous ne pourrions pas te recontacter
+                        </p>
                 </form>
-        </Main>
-        <footer>
-            <div class=" barre-logo">
-                <a href="https://fr-fr.facebook.com/bagaddelannbihoue1/"><img class="logo-bihoue"
-                        src="photos/bagad_lann-bihoue.png" alt="logo Bihoué" width="503" height="496"></a>
-                <a href="https://www.bretagne.bzh/"><img class="logo-bretagne"
-                        src="photos/region-bretagne-remove.png" alt="logo Bretagne" width="670"
-                        height="372"></a>
-                <a href="https://moulin-vert.org/"><img class="logo-moulin" src="photos/logo-moulin.jpg"
-                        alt="logo Moulin" width="1080" height="1920"></a>
-                <a href="https://sonerion.bzh/"><img class="logo-bodadeg" src="photos/bas-logo.jpg"
-                        alt="logo BAS" width="900" height="900"></a>
-            </div>
-        </footer>
-    </div>
-</body>
+            </main>
+
+            <footer>
+                <div class=" barre-logo">
+                    <a href="https://fr-fr.facebook.com/bagaddelannbihoue1/"><img class="logo-bihoue"
+                            src="photos/bagad_lann-bihoue.png" alt="logo Bihoué" width="503" height="496"></a>
+                    <a href="https://www.bretagne.bzh/"><img class="logo-bretagne"
+                            src="photos/region-bretagne-remove.png" alt="logo Bretagne" width="670"
+                            height="372"></a>
+                    <a href="https://moulin-vert.org/"><img class="logo-moulin" src="photos/logo-moulin.jpg"
+                            alt="logo Moulin" width="1080" height="1920"></a>
+                    <a href="https://sonerion.bzh/"><img class="logo-bodadeg" src="photos/bas-logo.jpg"
+                            alt="logo BAS" width="900" height="900"></a>
+                </div>
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
 </html>

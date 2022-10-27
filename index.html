@@ -1,101 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Bagad</title>
-    <link rel="stylesheet" href="testbaniere.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Bagad</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="photos/favicon-32x32.png">
+        <link rel="stylesheet" href="testbaniere.css">
+        <link rel="stylesheet" href="animation.css">
+    </head>
 
-<body>
+    <body>
+        
+        <div class="bloc-page">
+            <header>
+                <div class="bloc-container">
+                    <h1 class="le">LE</h1>
+                    <h1 class="bagad">BA<span class="animation">G</span>AD</h1>
+                    <img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">
+                    <nav class="nav">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="#" id="closeBtn" class="close">×</a>
+                            <ul>
+                            <li><a href="nav1groupe.html">Groupe</a></li>
+                            <li><a href="nav2chercheprof.html">Professeurs</a></li>
+                            <li><a href="nav3galerie.html">Galerie</a></li>
+                            </ul>
+                        </div>
+                        <svg class="burger-menu" id="openBtn" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+                        </svg>
+                    </nav>
+                </div>
+            </header>
 
-    <div class="bloc-page">
-        <img class="baniere-header" src="photos/logo1.jpg" alt="clé de sol" width="1920" height="1080">
-        <header>
-            <div class="bloc-container">
-                <h1 class="le">LE</h1>
-                <h1 class="bagad">BA<span>G</span>AD</h1>
-                <img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">
-                <nav class="nav">
-                    <div id="mySidenav" class="sidenav">
-                        <a id="closeBtn" href="#" class="close" img class="logo-general" src="photos/logo-general.jpg" alt="notel" width="1920" height="1080">×</a>
-                        <ul>
-                          <li><a href="nav1groupe.html">-Groupe le plus proche</a></li>
-                          <li><a href="nav2chercheprof.html">-Je cherche un prof</a></li>
-                          <li><a href="nav3galerie.html">-Galerie photos</a></li>
-                        </ul>
-                      </div>
-                      <div class="burger"></div>
-                      <a href="#" id="openBtn">
-                        <span class="burger-icon">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </span>
-                      </a>
+            <main>
+                <section class="photo">
+                    <div class="photo-card photo-left photoone">
+                        <a href="legroupe.html" >
+                            <h2 class="photo-card-title" >Le Groupe</h2>
+                            <img class="photo-moulin" src="photos/moulin.jpg" alt="bagad sur scène"
+                                width="960" height="640">
+                        </a>
                     </div>
-                </nav>
+
+                    <div class="photo-card">
+                        <a href="labombarde.html">
+                            <h2 class="photo-card-title" >Bombarde</h2><img class="photo-bombarde" src="photos/bombarde.jpg"
+                                alt="joueur de bombarde" width="960" height="640">
+                        </a>
+                    </div>
+
+                    <div class="photo-card photo-left">
+                        <a href="lacornemuse.html">
+                            <h2 class="photo-card-title">Cornemuse</h2><img class="photo-cornemuse" src="photos/cornemuse.jpg"
+                                alt="joueur de cornemuse" width="544" height="560">
+                        </a>
+                    </div>
+
+                    <div class="photo-card photoone">
+                        
+                        <a href="lacaisseclaire.html">
+                            <h2 class="photo-card-title">Caisse claire</h2><img class="photo-caisseclaire" src="photos/batterie.jpg"
+                                alt="joueur de cornemuse" width="544" height="560">
+                        </a>
+                    </div>
                 
-            </div>
-        </header>
+                </section>
+            </main>
 
-        <main>
-            <section class="photo">
-
-                <div class="photo-card" >
-                    <h2 class="photo-card-title">Le Groupe</h2>
-                    <a href="legroupe.html">
-                        <img class="photo-moulin" src="photos/moulin.jpg" alt="bagad sur scène"
-                            width="960" height="640">
-                    </a>
-
+            <footer>
+                <div class=" barre-logo">
+                    <a href="https://fr-fr.facebook.com/bagaddelannbihoue1/"><img class="logo-bihoue"
+                            src="photos/bagad_lann-bihoue.png" alt="logo Bihoué" width="503" height="496"></a>
+                    <a href="https://www.bretagne.bzh/"><img class="logo-bretagne"
+                            src="photos/region-bretagne-remove.png" alt="logo Bretagne" width="670"
+                            height="372"></a>
+                    <a href="https://moulin-vert.org/"><img class="logo-moulin" src="photos/logo-moulin.jpg"
+                            alt="logo Moulin" width="1080" height="1920"></a>
+                    <a href="https://sonerion.bzh/"><img class="logo-bodadeg" src="photos/bas-logo.jpg"
+                            alt="logo BAS" width="900" height="900"></a>
                 </div>
+            </footer>
 
-
-                <div class="photo-card">
-                    <h2 class="photo-card-title">Bombarde</h2>
-                    <a href="labombarde.html"><img class="photo-bombarde" src="photos/bombarde.jpg"
-                            alt="joueur de bombarde" width="960" height="640">
-                </div>
-
-
-
-                <div class="photo-card">
-                    <h2 class="photo-card-title">Cornemuse</h2>
-                    <a href="lacornemuse.html"><img class="photo-cornemuse" src="photos/cornemuse.jpg"
-                            alt="joueur de cornemuse" width="544" height="560">
-                </div>
-
-
-
-                <div class="photo-card">
-                    <h2 class="photo-card-title">Caisse claire</h2>
-                    <a href="lacaisseclaire.html"><img class="photo-caisseclaire" src="photos/batterie.jpg"
-                            alt="joueur de cornemuse" width="544" height="560">
-                    </div>
-               
-            </section>
-        </main>
-
-        <footer>
-            <div class=" barre-logo">
-                <a href="https://fr-fr.facebook.com/bagaddelannbihoue1/"><img class="logo-bihoue"
-                        src="photos/bagad_lann-bihoue.png" alt="logo Bihoué" width="503" height="496"></a>
-                <a href="https://www.bretagne.bzh/"><img class="logo-bretagne"
-                        src="photos/region-bretagne-remove.png" alt="logo Bretagne" width="670"
-                        height="372"></a>
-                <a href="https://moulin-vert.org/"><img class="logo-moulin" src="photos/logo-moulin.jpg"
-                        alt="logo Moulin" width="1080" height="1920"></a>
-                <a href="https://sonerion.bzh/"><img class="logo-bodadeg" src="photos/bas-logo.jpg"
-                        alt="logo BAS" width="900" height="900"></a>
-            </div>
-        </footer>
-    </div>
-
-    
-    <script src="index.js"></script>
-</body>
-
+        </div>
+        <script src="index.js"></script>
+    </body>
 </html>
